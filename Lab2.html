@@ -1,0 +1,68 @@
+<html>
+
+<head>
+   <title>Change Mouse Pointer</title>
+   <link rel="stylesheet" type="text/css" href="Lab2style.css">
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" style="cursor:hand">
+
+<h1>Changing the Mouse Pointer</h1>
+
+<p id="para2">When this page loads, the mouse pointer should change to a 'hand'. A custom cursor
+is defined by the "cursor:" style property CSS (cascading style sheets). The easiest
+way to change the cursor type is to add a <b>style="cursor: crosshair"</b> property
+within an HTML tag. e.g.</p>
+
+<p class="para1" style="cursor: crosshair">&lt;p align="center" style="cursor: crosshair"&gt;Text&lt;/p&gt</p>
+
+<p> The following links should change the pointer after being 'moused-over'. These show
+a number of built-in cursor styles that you can use:</p>
+
+<center><table class="para1" border="1" cellpadding="5" cellspacing="1"><tr>
+    <td><p style="cursor: auto"     >auto</p></td>
+    <td><p style="cursor: crosshair">crosshair</p></td>
+    <td><p style="cursor: default"  >default</p></td>
+    <td><p style="cursor: pointer"  >pointer</p></td>
+  </tr><tr>
+    <td><p style="cursor: help"     >help</p></td>
+    <td><p style="cursor: move"     >move</p></td>
+    <td><p style="cursor: text"     >text</p></td>
+    <td><p style="cursor: wait"     >wait</p></td>
+</tr></table></center>
+
+<br />
+
+<center><table border="1" cellpadding="5" cellspacing="1"><tr>
+    <td><p style="cursor: nw-resize">nw-resize</p></td>
+    <td><p style="cursor: n-resize" >n-resize</p></td>
+    <td><p style="cursor: ne-resize">ne-resize</p></td>
+  </tr><tr>
+    <td><p style="cursor: w-resize" >w-resize</p></td>
+    <td><p style="cursor: hand"     >hand</p></td>
+    <td><p style="cursor: e-resize" >e-resize</p></td>
+  </tr><tr>
+    <td><p style="cursor: sw-resize">sw-resize</p></td>
+    <td><p style="cursor: s-resize" >s-resize</p></td>
+    <td><p style="cursor: se-resize">se-resize</p></td>
+</tr></table></center>
+
+<p>Some of the cursor styles may not work, depending on the browser.</p>
+
+<h2>Custom Mouse Pointers</h2>
+
+<p>The following HTML code will display a custom cursor:</p>
+
+<p align="center" style="cursor: url('cursor.cur')">&lt;p align="center" style="cursor: url('cursor.cur')"&gt;Text&lt;/p&gt</p>
+
+<center><table><tr>
+    <td><p style="cursor: url('cursor.cur')" >A custom URI</p></td>
+</tr></table></center>
+
+<p>The user agent (i.e. browser) must be able to handle the type of cursor. Some possible
+file types that may work are .cur, .csr and .ani files. The above example works in
+Internet Explorer for Windows, but not in Netscape or IE 5.0 for Unix.</p>
+
+<p><a href="http://www.dispersiondesign.com/articles/">More web development articles</a></p>
+</body> 
+</html>
