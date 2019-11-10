@@ -1,0 +1,58 @@
+body{
+	background-color:#F4F4F4;
+	color:#555;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	line-height:1.6em;
+	margin:0;
+}
+
+
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+#main-header{
+	background-color: coral;
+	color:#FFF;
+}
+
+#navbar{
+	background-color:#333;
+	color:#FFF;
+
+}
+
+#navbar ul{
+	padding:0;
+	list-style: none;
+}
+
+#navbar li{
+	display:inline;
+}
+
+#navbar a{
+	color:#FFF;
+	text-decoration:none;
+	font-size:18px;
+	padding-right:15px;
+}
+
+#showcase{
+	background-image: url('../images/showcase.jpg');
+	background-position: center right;
+        background-repeat:no-repeat;
+        background-size:cover;
+	min-height:300px;
+	margin-bottom: 30px;
+	text-align:center }
+
+#showcase h1{
+	color:#FFF;
+	font-size:50px;
+	line-height: 1.6em;
+	padding-top:30px;
+}
